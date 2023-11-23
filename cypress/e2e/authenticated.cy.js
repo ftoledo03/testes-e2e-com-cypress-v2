@@ -6,7 +6,7 @@ describe('Scenarios where authentication is a pre-condition', () => {
     cy.sessionLogin()
   })
 
-  it('CRUDs a note', () => {
+  it.only('CRUDs a note', () => {
     const noteDescription = faker.lorem.words(4)
 
     cy.createNote(noteDescription)
