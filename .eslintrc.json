@@ -28,6 +28,10 @@
         ],
                "no-trailing-spaces": [
             "error"
-        ]
+        ],
+                    "parser": [
+            "babel-eslint"
+            ]
+        
     }
 }
