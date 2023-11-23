@@ -15,7 +15,6 @@ Cypress.Commands.add('fillSignupFormAndSubmit', (email, password) => {
   })
 })
 
-
 Cypress.Commands.add('guiLogin', (
   username = Cypress.env('USER_EMAIL'),
   password = Cypress.env('USER_PASSWORD')
