@@ -1,5 +1,4 @@
 import { faker } from '@faker-js/faker/locale/en'
-
 describe('Scenarios where authentication is a pre-condition', () => {
   beforeEach(() => {
     cy.intercept('GET', '**/notes').as('getNotes')

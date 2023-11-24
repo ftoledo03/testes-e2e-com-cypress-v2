@@ -21,6 +21,8 @@
     "cypress-iframe": "^1.0.1",
     "cypress-mailosaur": "^2.13.0",
     "eslint": "^8.43.0",
-    "eslint-plugin-cypress": "^2.13.3"
+    "eslint-plugin-cypress": "^2.13.3",
+    "test:cloud": "cypress run --record --tag 'desktop'",
+    "test:tablet:cloud": "cypress run --record --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js"
   }
 }
