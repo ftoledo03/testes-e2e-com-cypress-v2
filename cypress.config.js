@@ -10,5 +10,5 @@ module.exports = defineConfig({
     requestTimeout:90000,
 
   },
-  projectID: 'emxcwf',
+  projectId: 'emxcwf',
 })
