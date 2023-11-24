@@ -7,7 +7,7 @@ module.exports = defineConfig({
     env: {
       viewportWidthBreakpoint: 768,
     },
-    requestTimeout:100000,
+    requestTimeout:90000,
 
   },
   projectID: 'emxcwf',
