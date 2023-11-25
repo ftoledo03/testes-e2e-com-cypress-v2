@@ -12,7 +12,7 @@ module.exports = defineConfig({
       return config
     },
 
-    requestTimeout:390000,
+    requestTimeout:410000,
 
   },
   projectId: 'emxcwf',
